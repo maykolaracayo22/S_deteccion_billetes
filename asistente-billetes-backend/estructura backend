@@ -1,0 +1,18 @@
+asistente-billetes-backend/
+├── app/
+│   ├── api/
+│   │   └── routes.py
+│   ├── services/
+│   │   ├── roboflow_client.py
+│   │   ├── detection_logic.py
+│   │   └── tts_service.py
+│   └── static/
+│       └── audio/
+├── tests/
+│   └── test_predict.py
+├── main.py
+├── config.py
+├── requirements.txt
+├── Dockerfile
+├── .env.example
+└── README.md
